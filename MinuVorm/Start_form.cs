@@ -30,7 +30,7 @@ namespace MinuVorm
 
         private void Start_btn2_Click(object sender, EventArgs e)
         {
-            MyForm uus_aken = new MyForm();
+            MyForm uus_aken = new MyForm(8,5);
             uus_aken.StartPosition = FormStartPosition.CenterScreen;
             uus_aken.ShowDialog();
         }
